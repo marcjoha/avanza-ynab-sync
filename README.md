@@ -14,3 +14,5 @@ YNAB_ACCOUNT=...
 The `deploy.sh` will deploy the container to Google Cloud Run as a job.
 
 NB. the job isn't automatically scheduled, do this yourself.
+
+NB2. the .env file is not needed for deployment, the deploy script will ask for all relevant parameters and won't upload the env file into GCP.
